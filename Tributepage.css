@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:inter;
+}
+.homepage{
+    height: 100vh;
+    /* border: 2px solid red; */
+    position: relative;
+    background-color: black;
+}
+.vido-apj{
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    position: absolute;
+
+    transition: all .8s;
+}
+.frame-overvideo{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 999;
+}
+.info>h3{
+    font-size: 5vw;
+}
+.info>p{
+    font-size: 1vw;
+    margin-bottom: 20%;
+    font-family:'Times New Roman', Times, serif;
+}
+#but{
+    color: white;
+    font-size: 5vw;
+    cursor: pointer;
+    margin: 20px;
+}
+.thoughts{
+    height: auto;
+    background-color: wheat;
+    display: flex;
+
+}
+.thoughtstext{
+    height: 90vh;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    padding: 10% 0 10% 10%;
+}
+.para{
+    font-size: 1.9rem;
+}
+.thoughtimages{
+    width: 50%;
+    position: relative;
+}
+.thoughtimage{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+}
+.biographi{
+    height: auto;
+    background-color: rgb(1, 37, 37);
+    display: flex;
+    flex-direction: column;
+    padding: 1% 25%;
+    justify-content: center;
+}
+.box{
+    height: auto;
+    padding: 3% 3% 3% 3%;
+    border-bottom: 1px solid whitesmoke;
+    
+
+}
+.box>h4{
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 10px;
+    
+    display: inline;
+    border-bottom: 1px solid whitesmoke;
+}
+.biopara{
+    padding: 4% 2% 2% 2%;
+    color: white;
+    text-align: justify;
+    font-size: .9rem;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+}
