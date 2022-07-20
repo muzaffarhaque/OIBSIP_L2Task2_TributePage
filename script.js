@@ -1,4 +1,12 @@
+window.onload= function(){
+console.log("onload running")
+let wi=window.innerWidth
+console.log(wi,"inner wide")
+if(wi<=900){
+  alert("Please open in PC, Laptop(It's not for mubile)")
+}
 
+}
 let video= document.querySelector(".vido-apj")
 let but=document.querySelector("#but")
 let info=document.querySelector(".info")
