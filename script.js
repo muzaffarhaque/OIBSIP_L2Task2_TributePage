@@ -3,7 +3,7 @@ console.log("onload running")
 let wi=window.innerWidth
 console.log(wi,"inner wide")
 if(wi<=900){
-  alert("Please open in PC, Laptop(It's not for mubile)")
+  alert("Please open in PC, Laptop(It's not for mobile)")
 }
 
 }
